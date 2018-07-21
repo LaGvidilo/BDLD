@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* BDLD_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* BDLD_test.1 */; };
+		F192551421032F920067762C /* BDLD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F192551221032F920067762C /* BDLD.h */; };
+		F192551521032F920067762C /* BDLD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F192551321032F920067762C /* BDLD.cpp */; };
+		F192551F210330040067762C /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1925517210330040067762C /* base64.cpp */; };
+		F1925520210330040067762C /* base64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1925518210330040067762C /* base64.h */; };
+		F1925521210330040067762C /* cidl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1925519210330040067762C /* cidl.cpp */; };
+		F1925522210330040067762C /* cidl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F192551A210330040067762C /* cidl.h */; };
+		F1925523210330040067762C /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F192551B210330040067762C /* md5.cpp */; };
+		F1925524210330040067762C /* md5.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F192551C210330040067762C /* md5.h */; };
+		F1925525210330040067762C /* sha512.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F192551D210330040067762C /* sha512.cpp */; };
+		F1925526210330040067762C /* sha512.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F192551E210330040067762C /* sha512.h */; };
+		F192553D21038E330067762C /* test.bdld in CopyFiles */ = {isa = PBXBuildFile; fileRef = F192553C21038E330067762C /* test.bdld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* BDLD_test.1 in CopyFiles */,
+				F192551421032F920067762C /* BDLD.h in CopyFiles */,
+				F1925520210330040067762C /* base64.h in CopyFiles */,
+				F1925522210330040067762C /* cidl.h in CopyFiles */,
+				F1925524210330040067762C /* md5.h in CopyFiles */,
+				F1925526210330040067762C /* sha512.h in CopyFiles */,
+				F192553D21038E330067762C /* test.bdld in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* BDLD_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BDLD_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* BDLD_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BDLD_test.1; sourceTree = "<group>"; };
+		F192551221032F920067762C /* BDLD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLD.h; sourceTree = "<group>"; };
+		F192551321032F920067762C /* BDLD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BDLD.cpp; sourceTree = "<group>"; };
+		F1925517210330040067762C /* base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base64.cpp; sourceTree = "<group>"; };
+		F1925518210330040067762C /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		F1925519210330040067762C /* cidl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cidl.cpp; sourceTree = "<group>"; };
+		F192551A210330040067762C /* cidl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cidl.h; sourceTree = "<group>"; };
+		F192551B210330040067762C /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		F192551C210330040067762C /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		F192551D210330040067762C /* sha512.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha512.cpp; sourceTree = "<group>"; };
+		F192551E210330040067762C /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		F192553C21038E330067762C /* test.bdld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.bdld; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* BDLD_test */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				F192553C21038E330067762C /* test.bdld */,
+			);
+			name = BDLD_test;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F1925517210330040067762C /* base64.cpp */,
+				F1925518210330040067762C /* base64.h */,
+				F1925519210330040067762C /* cidl.cpp */,
+				F192551A210330040067762C /* cidl.h */,
+				F192551B210330040067762C /* md5.cpp */,
+				F192551C210330040067762C /* md5.h */,
+				F192551D210330040067762C /* sha512.cpp */,
+				F192551E210330040067762C /* sha512.h */,
+				F192551321032F920067762C /* BDLD.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				F192551221032F920067762C /* BDLD.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* BDLD_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* BDLD_test.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* BDLD_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "BDLD_test" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDLD_test;
+			productInstallPath = "$(HOME)/bin";
+			productName = BDLD_test;
+			productReference = 8DD76F6C0486A84900D96B5E /* BDLD_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "BDLD_test" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* BDLD_test */;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* BDLD_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				F192551521032F920067762C /* BDLD.cpp in Sources */,
+				F192551F210330040067762C /* base64.cpp in Sources */,
+				F1925521210330040067762C /* cidl.cpp in Sources */,
+				F1925523210330040067762C /* md5.cpp in Sources */,
+				F1925525210330040067762C /* sha512.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = BDLD_test;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = BDLD_test;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "BDLD_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "BDLD_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

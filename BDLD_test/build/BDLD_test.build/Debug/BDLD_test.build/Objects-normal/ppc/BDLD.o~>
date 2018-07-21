@@ -1,0 +1,4 @@
+/Users/cyril/BDLD_test/BDLD.cpp: In member function 'std::map<std::string, std::map<int, std::string, std::less<int>, std::allocator<std::pair<const int, std::string> > >, std::less<std::string>, std::allocator<std::pair<const std::string, std::map<int, std::string, std::less<int>, std::allocator<std::pair<const int, std::string> > > > > > BDLD::dropTable(std::string)':
+/Users/cyril/BDLD_test/BDLD.cpp:97: error: 'selector' was not declared in this scope
+/Users/cyril/BDLD_test/BDLD.cpp: In member function 'std::map<std::string, std::map<int, std::string, std::less<int>, std::allocator<std::pair<const int, std::string> > >, std::less<std::string>, std::allocator<std::pair<const std::string, std::map<int, std::string, std::less<int>, std::allocator<std::pair<const int, std::string> > > > > > BDLD::createTable(std::string)':
+/Users/cyril/BDLD_test/BDLD.cpp:112: error: expected primary-expression before ';' token
