@@ -1,6 +1,0 @@
-//
-// Prefix header for all source files of the 'BDLD' target in the 'BDLD' project.
-//
-
-
-#include <iostream>

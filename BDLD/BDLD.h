@@ -1,23 +1,58 @@
 /*
  *  BDLD.h
- *  BDLD
+ *  BDLD_test
  *
- *  Created by Cyril Coelho on 20/07/18.
- *  Copyright 2018 __MyCompanyName__. All rights reserved.
+ *  Created by Cyril Coelho on 21/07/18.
+ *  Copyright 2018 INFORMABOX TECH. All rights reserved.
  *
+ *	Version 0.1.0 prototype
  */
+#ifndef BDLD_H
+#define BDLD_H
+#include "base64.h"
+#include "md5.h"
+#include "sha512.h"
+#include <stdio.h>
+#include <map>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <iostream>
+#include <istream>
+#include <sstream>
+#include <algorithm>
 
-#ifndef BDLD_
-#define BDLD_
+//is_like("Nicolas", "nicole"); //SOURCE , VALUECUR
+using namespace std;
 
-/* The classes below are exported */
-#pragma GCC visibility push(default)
+map <string, map<int, string> > getDataFromTable(string line, string selector);
 
-class BDLD
-{
+class BDLD{
 	public:
-		void HelloWorld(const char *);
+	void setFile(string pathfile);
+	void createTable(string nametable);
+	void dropTable(string nametable);
+	map < string, map < int,string > > getTable(string nameTable,string selector);
+	void saveFile(string pathfile);
+	void createStruct(string nametable,string structure);
+	void insertData(string nametable, string info[]);
+	void deleteData(string nametable, int codeid);
+	map <string, map<int, string> > getDataFromTable(string line, string selector);
+	map <string, map<int, string> > getAllTable(string selector);
+	
+	map <string, map<int, string> > BUFF;
+	
+	private:
+	bool exist;
+	string file;
+	map <string, map<int, string> > buffer;
+	int ID_STRUCT;
+	
+
 };
 
-#pragma GCC visibility pop
+
+
+
+
 #endif
